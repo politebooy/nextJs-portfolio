@@ -1,0 +1,18 @@
+.container{
+    background-color: rgb(247, 247, 247);
+    z-index: 1;
+    background: linear-gradient(rgba(247, 247, 247, 0.918),rgba(247, 247, 247, 0.712)), url(../../../public/images/1.jpg) center;
+    background-size: cover;
+}
+
+.container h3{
+    text-align: center;
+    font-size: 24px;
+    margin: 5px 0;
+}
+.container p{
+    font-size: 19px;
+    color: midnightblue;
+    font-family: Roboto;
+    font-family: Oxygen;
+}
