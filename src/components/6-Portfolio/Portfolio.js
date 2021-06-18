@@ -3,10 +3,10 @@ import React from 'react'
 import Section from '../4-Section/Section'
 import styles from './styles.module.css'
 import Image from 'next/image'
-import portfolio1 from '../../../public/images/p1.jpg'
-import portfolio2 from '../../../public/images/p2.jpg'
-import portfolio3 from '../../../public/images/p3.jpg'
-import portfolio4 from '../../../public/images/p4.jpg'
+import portfolio1 from '/public/images/p1.jpg'
+import portfolio2 from '/public/images/p2.jpg'
+import portfolio3 from '/public/images/p3.jpg'
+import portfolio4 from '/public/images/p4.jpg'
 
 export default function Portfolio() {
     return (

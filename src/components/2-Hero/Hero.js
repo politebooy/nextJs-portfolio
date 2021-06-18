@@ -1,8 +1,8 @@
 import { Button, Grid } from '@material-ui/core'
 import React from 'react'
 import Image from 'next/image'
-import profilePic from '../../../public/me.png'
-import sign from '../../../public/sign.svg'
+import profilePic from '/public/me.png'
+import sign from '/public/sign.svg'
 import styles from './style.module.css'
 import { FiFacebook, FiTwitter, FiLinkedin, FiGithub, FiInstagram } from 'react-icons/fi'
 import AOS from 'aos';
