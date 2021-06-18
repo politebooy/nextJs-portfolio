@@ -2,7 +2,6 @@ import { Avatar, Grid } from '@material-ui/core'
 import React from 'react'
 import Section from '../4-Section/Section'
 import styles from './styles.module.css'
-import person from '../../../public/Images/bg7.jpg'
 
 export default function Testimonial() {
     return (
