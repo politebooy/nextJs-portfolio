@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid } from '@material-ui/core'
+import { Card, Grid } from '@material-ui/core'
 import React from 'react'
 import Section from '../4-Section/Section'
 import styles from './styles.module.css'
@@ -11,7 +11,7 @@ import portfolio4 from '/public/images/p4.jpg'
 export default function Portfolio() {
     return (
         <div className={styles.container}>
-            <Section title="Portfolios">
+            <Section title="Portfolios" route="portfolio">
                 <Grid container alignItems="center">
                     <Grid data-aos="fade-left" item xs="12" md="6">
                         <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident distinctio sunt deserunt asperiores animi cupiditate maiores molestiae libero dolores similique! Sapiente optio eum minus ex nulla voluptate molestiae repellat placeat.</h3>

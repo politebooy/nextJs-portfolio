@@ -1,5 +1,5 @@
-import { Button, Grid } from '@material-ui/core'
-import React from 'react'
+import { Grid } from '@material-ui/core'
+import React,{ useEffect } from 'react'
 import Image from 'next/image'
 import profilePic from '/public/me.png'
 import sign from '/public/sign.svg'
@@ -7,14 +7,16 @@ import styles from './style.module.css'
 import { FiFacebook, FiTwitter, FiLinkedin, FiGithub, FiInstagram } from 'react-icons/fi'
 import AOS from 'aos';
 import "aos/dist/aos.css"
-import { useEffect } from 'react'
-// FiFacebook
+
+
 export default function Hero() {
 
     useEffect(() => {
         AOS.init({
             // initialise with other settings
-            duration: 1000
+            duration: 1000,
+            once: true,
+            delay: 200
         });
         // AOS.refresh();
     }, [])
@@ -24,7 +26,7 @@ export default function Hero() {
             <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>
-            <Grid className={styles.container} container alignItems="center">
+            <Grid className={styles.container} container>
                 <Grid item xs={12} md={5}>
                     <div className={styles.imageContainer}>
                         <Image src={profilePic} alt="Picture of the author" />
@@ -38,12 +40,13 @@ export default function Hero() {
                         <div className={styles.sign}>
                             <Image src={sign} alt="Picture of the author" />
                         </div>
-                        <div className={styles.socialLink}>
-                            <a href="#"><FiFacebook /></a>
+                        <div data-aos="zoom-in" className={styles.socialLink}>
+                            <a href="https://join.skype.com/invite/VLF0V7ZED15A">S</a>
+                            <a href="https://www.facebook.com/real.bangali.1/"><FiFacebook /></a>
                             <a href="#"><FiTwitter /></a>
-                            <a href="#"><FiLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/billah1/"><FiLinkedin /></a>
                             <a href="#"><FiInstagram /></a>
-                            <a href="#"><FiGithub /></a>
+                            <a href="https://github.com/politeboys"><FiGithub /></a>
                         </div>
                     </div>
                 </Grid>

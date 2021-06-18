@@ -1,7 +1,8 @@
 .container{
     background-color: rgb(247, 247, 247);
     z-index: 1;
-    background: linear-gradient(rgba(247, 247, 247, 0.918),rgba(247, 247, 247, 0.712)), url(../../../public/images/1.jpg) center;
+    /* background: linear-gradient( rgba(247, 247, 247, 0.918),rgba(247, 247, 247, 0.712)), url(../../../public/images/1.jpg) center; */
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.466),rgb(255, 255, 255)), url(../../../public/images/1.jpg) center;
     background-size: cover;
 }
 

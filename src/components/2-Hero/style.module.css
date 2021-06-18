@@ -12,7 +12,6 @@
     position: absolute;
     bottom: -9px;
     left: 15%;
-    /* transform: translate(150px, 120px); */
 }
 .imageContainer img{
     width: 280px;
@@ -20,8 +19,7 @@
 }
 .details{
     z-index: 2;
-    /* position: absolute; */
-    transform: translate(0, 50px);
+    transform: translate(0, 70%) !important;
 }
 
 .details .name{
@@ -53,20 +51,11 @@
 .details .sign img{
     width: 100px;
 }
-.details .contactBtn{
-    /* font-size: 16px; */
-    color: #fff;
-    padding: 1px 10px;
-    font-family: 'Atomic Age', cursive;
-    font-weight: 100;
-    text-transform: capitalize;
-}
 .socialLink a{
     margin-right: 5px;
     border: 1px solid #999;
     width: 38px;
     height: 38px;
-    /* color: #999; */
     display: grid;
     align-items: center;
     justify-content: center;

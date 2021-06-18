@@ -1,15 +1,13 @@
 import { Grid } from '@material-ui/core'
 import React from 'react'
 import Section from '../4-Section/Section'
-// import useStyles from './styles'
 import classes from './styles.module.css'
 
 export default function About() {
-    // const classes = useStyles()
 
     return (
         <div className={classes.container}>
-            <Section title="Little Description">
+            <Section title="Little Description" route="about">
                 <Grid data-aos="fade-in" container spacing={3}>
                     <Grid item xs={12} md={6}>
                         <h3>About me</h3>
