@@ -1,7 +1,7 @@
 import { Grid } from '@material-ui/core'
-import React,{ useEffect } from 'react'
+import React, { useEffect } from 'react'
 import Image from 'next/image'
-import profilePic from '/public/me.png'
+import profilePic from '/public/me2.png'
 import sign from '/public/sign.svg'
 import styles from './style.module.css'
 import { FiFacebook, FiTwitter, FiLinkedin, FiGithub, FiInstagram } from 'react-icons/fi'
@@ -28,19 +28,19 @@ export default function Hero() {
             <div id='stars3'></div>
             <Grid className={styles.container} container>
                 <Grid item xs={12} md={5}>
-                    <div className={styles.imageContainer}>
+                    <div data-aos="fade-in" data-aos-delay="500" className={styles.imageContainer}>
                         <Image src={profilePic} alt="Picture of the author" />
                     </div>
                 </Grid>
                 <Grid item xs={12} md={6} style={{ color: '#fff' }}>
-                    <div data-aos="fade-left" className={styles.details}>
-                        <h2 data-aos="fade-left" className={styles.name}>Hi! I am mukim billah</h2>
-                        <h2 data-aos="fade-left" className={styles.title}>I build and design <br></br> website</h2>
-                        <h4 data-aos="fade-left" className={styles.subTitle}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam necessitatibus amet vitae ex iusto!</h4>
-                        <div className={styles.sign}>
+                    <div className={styles.details}>
+                        <h2 data-aos="fade-left" data-aos-delay="700" className={styles.name}>Hi! I am mukim billah</h2>
+                        <h2 data-aos="fade-left" data-aos-delay="800" className={styles.title}>I build and design <br></br> website</h2>
+                        <h4 data-aos="fade-left" data-aos-delay="900" className={styles.subTitle}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam necessitatibus amet vitae ex iusto!</h4>
+                        <div data-aos="fade-left" data-aos-delay="1000" className={styles.sign}>
                             <Image src={sign} alt="Picture of the author" />
                         </div>
-                        <div data-aos="zoom-in" className={styles.socialLink}>
+                        <div data-aos="fade-left" data-aos-delay="1100" className={styles.socialLink}>
                             <a href="https://join.skype.com/invite/VLF0V7ZED15A">S</a>
                             <a href="https://www.facebook.com/real.bangali.1/"><FiFacebook /></a>
                             <a href="#"><FiTwitter /></a>

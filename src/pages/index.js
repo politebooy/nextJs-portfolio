@@ -4,6 +4,8 @@ import About from '../components/3-About/About'
 import Skills from '../components/5-Skills/Skills'
 import Portfolio from '../components/6-Portfolio/Portfolio'
 import Testimonial from '../components/7-Testimonial/Testimonial'
+import Teammate from '../components/8-Teammate/Teammate'
+import Exparience from '../components/9-Exparience/Exparience'
 
 export default function Home() {
   return (
@@ -17,7 +19,10 @@ export default function Home() {
       <About />
       <Skills />
       <Portfolio />
+      <Exparience />
+      {/* <Teammate /> */}
       <Testimonial />
+      <footer style={{height: '50px', backgroundColor: '#060c21'}}></footer>
     </>
   )
 }

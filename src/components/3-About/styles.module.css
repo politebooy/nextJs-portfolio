@@ -1,19 +1,35 @@
 .container{
     background-color: rgb(247, 247, 247);
     z-index: 1;
-    /* background: linear-gradient( rgba(247, 247, 247, 0.918),rgba(247, 247, 247, 0.712)), url(../../../public/images/1.jpg) center; */
     background: linear-gradient(to right, rgba(255, 255, 255, 0.466),rgb(255, 255, 255)), url(../../../public/images/1.jpg) center;
     background-size: cover;
+    letter-spacing: .5px;
 }
 
 .container h3{
     text-align: center;
     font-size: 24px;
-    margin: 5px 0;
+    margin: 10px 0;
+    font-weight: 100;
+    letter-spacing: .5px;
+}
+.container h4{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    color: rgb(78, 78, 78);
+    margin-bottom: 10px;
+    letter-spacing: .5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container p{
-    font-size: 19px;
-    color: midnightblue;
-    font-family: Roboto;
-    font-family: Oxygen;
+    /* font-size: 19px; */
+    color: rgb(59, 59, 59);
+    margin: 0;
+    letter-spacing: .9px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+.container h2{
+    margin-bottom: 12px;
 }

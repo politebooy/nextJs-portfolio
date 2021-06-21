@@ -11,10 +11,10 @@
 .imageContainer{
     position: absolute;
     bottom: -9px;
-    left: 15%;
+    left: 13%;
 }
 .imageContainer img{
-    width: 280px;
+    width: 320px;
     z-index: 1;
 }
 .details{

@@ -1,0 +1,48 @@
+.container{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1063%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(255%2c 255%2c 255%2c 1)'%3e%3c/rect%3e%3cpath d='M 0%2c65 C 144%2c96.6 432%2c234.8 720%2c223 C 1008%2c211.2 1296%2c49.4 1440%2c6L1440 560L0 560z' fill='rgba(241%2c 248%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M 0%2c522 C 144%2c485 432%2c330 720%2c337 C 1008%2c344 1296%2c513 1440%2c557L1440 560L0 560z' fill='rgba(207%2c 230%2c 255%2c 1)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1063'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.root{
+    display: flex;
+    min-height: 300px;
+    
+}
+.tabs{
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.856);
+    font-family: atomic age !important;
+}
+.tab{
+    font-family: atomic age !important;
+}
+.tabPanel{
+    flex: 5;
+    padding-left: 10px;
+    background-color: rgba(255, 255, 255, 0.671);
+}
+.tabPanel h3{
+    margin: 0;
+    font-family: atomic age;
+    font-size: 32px;
+    font-weight: 100;
+}
+.tabPanel h4{
+    margin: 8px 0;
+    font-weight: 100;
+    font-family: atomic age;
+    border: 1px solid #999;
+    float: left;
+    padding: 2px 8px
+}
+.tabPanel h5{
+    clear: both;
+    margin: 0;
+    font-family: atomic age;
+    font-weight: 100;
+}
+.tabPanel p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-family: cursive; */
+}

@@ -19,8 +19,8 @@ export default function Skills() {
                     <Grid item style={{ padding: '30px' }} md="2">
                         <div  data-aos="zoom-in">
                         <CircularProgressbar
-                            value="80"
-                            text={`70%`}
+                            value="75"
+                            text={`75%`}
                             strokeWidth={7}
                             styles={buildStyles({
                                 pathTransition: "none",
@@ -29,12 +29,12 @@ export default function Skills() {
                             })}
                         />
                         </div>
-                        <h3>Javascript & ES6</h3>
+                        <h3>Javascript & ECMAScript</h3>
                     </Grid>
 
                     <Grid item style={{ padding: '30px' }} md="2">
                         <ChangingProgressProvider
-                            values={[76, 78, 80, 82, 84, 86]}
+                            values={[80, 82, 84, 86]}
                             duration={1.8}
                         >
                             {percentage => (
@@ -89,8 +89,8 @@ export default function Skills() {
                     <Grid item style={{ padding: '30px' }} md="2">
                         <div  data-aos="zoom-in">
                         <CircularProgressbar
-                            value="70"
-                            text={`70%`}
+                            value="85"
+                            text={`85%`}
                             strokeWidth={7}
                             styles={buildStyles({
                                 pathTransition: "none",
@@ -99,7 +99,7 @@ export default function Skills() {
                             })}
                         />
                         </div>
-                        <h3>Next js</h3>
+                        <h3>Next js & Material-ui</h3>
                     </Grid >
 
                     <Grid item style={{ padding: '30px' }} md="2">
@@ -109,8 +109,8 @@ export default function Skills() {
                             text={`80%`}
                             strokeWidth={7}
                             styles={buildStyles({
-                                pathColor: "#060c21",
-                                trailColor: "rgba(255, 18, 18, .1)",
+                                pathColor: "#263569",
+                                trailColor: "#92a4e4",
                             })}
                         />
                         </div>
