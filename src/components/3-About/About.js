@@ -6,9 +6,9 @@ import classes from './styles.module.css'
 export default function About() {
 
     return (
-        <div className={classes.container}>
+        <div id="about" className={classes.container}>
             <Section title="Little Description" route="about">
-                <Grid container spacing={3}>
+                <Grid container spacing={3} className={classes.innerContainer}>
                     <Grid item xs={12} md={6}>
                         <h3 data-aos="fade-up">About me</h3>
                         {/* My name is mukim billah, district: Bagerhat, i am a freelance web developer */}

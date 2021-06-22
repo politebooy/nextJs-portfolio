@@ -22,7 +22,7 @@ export default function Hero() {
     }, [])
 
     return (
-        <div class="div">
+        <div id="hero" class="div">
             <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>

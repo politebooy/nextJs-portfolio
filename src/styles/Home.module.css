@@ -1,0 +1,19 @@
+.sideBar{
+    position: fixed;
+    right: 0px;
+    top: 30%;
+    z-index: 9999;
+}
+.sideBar a{
+    display: block;
+    transform: translateX(97px);
+    background-color: rgba(255, 255, 255, 0.726);
+    transition: .3s;
+}
+.sideBar a:hover{
+    transform: translateX(0px);
+}
+.sideBar a button{
+    font-weight: 600;
+    font-size: 14px;
+}

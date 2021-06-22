@@ -15,11 +15,11 @@ export default function Section({ title, children, route }) {
             </Grid>
             {children}
             <br />
-            <Grid container justify="center">
+            {route && <Grid container justify="center">
                 <Button className={classes.btn} variant="outlined" color="primary">
                     <Link href={`/${route}`}>Read more...</Link>
                 </Button>
-            </Grid>
+            </Grid>}
         </div>
     )
 }

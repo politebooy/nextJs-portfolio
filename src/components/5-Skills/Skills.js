@@ -13,7 +13,7 @@ export default function Skills() {
 
 
     return (
-        <div className={styles.container}>
+        <div id="skills" className={styles.container}>
             <Section title="Acquired skills" route="skills">
                 <Grid container>
                     <Grid item style={{ padding: '30px' }} md="2">

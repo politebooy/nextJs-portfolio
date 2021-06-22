@@ -10,7 +10,7 @@ import portfolio4 from '/public/images/p4.jpg'
 
 export default function Portfolio() {
     return (
-        <div className={styles.container}>
+        <div id="portfolio" className={styles.container}>
             <Section title="Portfolios" route="portfolio">
                 <Grid container alignItems="center">
                     <Grid data-aos="fade-left" item xs="12" md="6">

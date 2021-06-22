@@ -51,8 +51,8 @@ export default function Exparience() {
 
 
     return (
-        <div className={styles.container}>
-            <Section title="Exparience">
+        <div id="exparience" className={styles.container}>
+            <Section title="Exparience" route="exparience">
                 <div className={styles.root}>
                     <Tabs
                         orientation="vertical"
@@ -72,7 +72,7 @@ export default function Exparience() {
                         <TabPanel value={value} index={i} className={styles.tabPanel} data-aos="fade-right">
                             <h3>{item.position}</h3>
                             <h4>{item.companny}</h4>
-                            <h5>{ Date()}</h5>
+                            <h5>{Date()}</h5>
                             <p>{item.details[1]}</p>
                             <p>{item.details[2]}</p>
                             <p>{item.details[3]}</p>
