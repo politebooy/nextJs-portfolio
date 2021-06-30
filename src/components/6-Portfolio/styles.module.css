@@ -3,9 +3,6 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.container .right{
-    padding-left: 50px;
-}
 .right> div> div{
     transition: .3s;
     box-shadow: 3px 3px 12px 4px rgba(26, 0, 0, 0.212);
@@ -15,15 +12,27 @@
     transition: .3s;
 }
 
-.right> div:nth-child(1){
-    transform: translate(0px, -20px);
+
+@media screen and (min-width: 768px){
+    .container .right{
+        padding-left: 50px;
+    }
 }
-.right> div:nth-child(2){
-    transform: translate(5px, 0px);
-}
-.right> div:nth-child(3){
-    transform: translate(-30px, -20px);
-}
-.right> div:nth-child(4){
-    transform: translate(-25px, 0px);
-}
+
+
+
+
+
+
+    /* .right> div:nth-child(1){
+        transform: translate(0px, -20px);
+    }
+    .right> div:nth-child(2){
+        transform: translate(5px, 0px);
+    }
+    .right> div:nth-child(3){
+        transform: translate(-30px, -20px);
+    }
+    .right> div:nth-child(4){
+        transform: translate(-25px, 0px);
+    } */

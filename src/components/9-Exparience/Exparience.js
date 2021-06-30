@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Section from '../4-Section/Section'
 import styles from './styles.module.css'
 import PropTypes from 'prop-types';
@@ -48,6 +48,12 @@ export default function Exparience() {
         setValue(newValue);
     };
 
+    const mobile = global.innerWidth < 750
+    const controlOrientation = global.innerWidth > 750 && "vertical"
+
+    useEffect(() => {
+        console.log(global.innerWidth)
+    }, [])
 
 
     return (
@@ -55,11 +61,12 @@ export default function Exparience() {
             <Section title="Exparience" route="exparience">
                 <div className={styles.root}>
                     <Tabs
-                        orientation="vertical"
-                        variant="scrollable"
+                        // orientation={mobile ? "" : "vertical"}
+                        // orientation={controlOrientation}
+                        // variant="scrollable"
                         value={value}
                         onChange={handleChange}
-                        aria-label="Vertical tabs example"
+                        // aria-label="Vertical tabs example"
                         className={styles.tabs}
                         data-aos="fade-left"
                     >

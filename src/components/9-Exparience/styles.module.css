@@ -3,23 +3,29 @@
     background-repeat: no-repeat;
     background-position: bottom;
 }
-.root{
-    display: flex;
-    min-height: 300px;
-    
-}
-.tabs{
-    flex: 1;
-    background-color: rgba(255, 255, 255, 0.856);
-    font-family: atomic age !important;
-}
-.tab{
-    font-family: atomic age !important;
-}
-.tabPanel{
-    flex: 5;
-    padding-left: 10px;
-    background-color: rgba(255, 255, 255, 0.671);
+@media screen and (min-width: 768px){
+    .root{
+        display: flex;
+        min-height: 300px;
+    }
+    .tabs{
+        /* flex: 1; */
+        background-color: rgba(255, 255, 255, 0.856);
+        font-family: atomic age !important;
+    }
+    .tabs> div> div{
+        display: grid;
+    }
+    .tab{
+        font-family: atomic age !important;
+        /* float: left; */
+        display: grid;
+    }
+    .tabPanel{
+        flex: 5;
+        padding-left: 10px;
+        background-color: rgba(255, 255, 255, 0.671);
+    }
 }
 .tabPanel h3{
     margin: 0;
@@ -46,3 +52,9 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* font-family: cursive; */
 }
+
+
+
+
+
+@media screen and (max-width: 768px){}

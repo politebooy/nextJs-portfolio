@@ -19,29 +19,17 @@ export default function Portfolio() {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, nulla dolorem sequi impedit commodi soluta officiis tempora omnis eum harum libero porro et temporibus maiores inventore molestiae architecto obcaecati! Mollitia?</p>
                     </Grid>
                     <Grid className={styles.right} data-aos="zoom-in" container item xs="12" md="6" spacing={3}>
-                        <Grid item item xs="12" md="6">
-                            {/* <Card> */}
-                                <Image src={portfolio1} width={300} height={180} alt="Picture of the author" />
-                                {/* <p style={{ margin: '5px 0 10px 15px' }}>Lorem ipsum dolor sit amet</p> */}
-                            {/* </Card> */}
+                        <Grid item item xs="6" md="6">
+                            <Image src={portfolio1} width={300} height={180} alt="Picture of the author" />
                         </Grid>
-                        <Grid item item xs="12" md="6">
-                            {/* <Card> */}
-                                <Image src={portfolio2} width={300} height={180} alt="Picture of the author" />
-                                {/* <p style={{ margin: '5px 0 10px 15px' }}>Lorem ipsum dolor sit amet</p> */}
-                            {/* </Card> */}
+                        <Grid item item xs="6" md="6">
+                            <Image src={portfolio2} width={300} height={180} alt="Picture of the author" />
                         </Grid>
-                        <Grid item item xs="12" md="6">
-                            {/* <Card> */}
-                                <Image src={portfolio3} width={300} height={180} alt="Picture of the author" />
-                                {/* <p style={{ margin: '5px 0 10px 15px' }}>Lorem ipsum dolor sit amet</p> */}
-                            {/* </Card> */}
+                        <Grid item item xs="6" md="6">
+                            <Image src={portfolio3} width={300} height={180} alt="Picture of the author" />
                         </Grid>
-                        <Grid item item xs="12" md="6">
-                            {/* <Card> */}
-                                <Image src={portfolio4} width={300} height={180} alt="Picture of the author" />
-                                {/* <p style={{ margin: '5px 0 10px 15px' }}>Lorem ipsum dolor sit amet</p> */}
-                            {/* </Card> */}
+                        <Grid item item xs="6" md="6">
+                            <Image src={portfolio4} width={300} height={180} alt="Picture of the author" />
                         </Grid>
                     </Grid>
                 </Grid>

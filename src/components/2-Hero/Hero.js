@@ -28,7 +28,7 @@ export default function Hero() {
             <div id='stars3'></div>
             <Grid className={styles.container} container>
                 <Grid item xs={12} md={5}>
-                    <div data-aos="fade-in" data-aos-delay="500" className={styles.imageContainer}>
+                    <div data-aos="fade-in" className={styles.imageContainer}>
                         <Image src={profilePic} alt="Picture of the author" />
                     </div>
                 </Grid>
