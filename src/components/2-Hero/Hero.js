@@ -4,9 +4,9 @@ import Image from 'next/image'
 import profilePic from '/public/me2.png'
 import sign from '/public/sign.svg'
 import styles from './style.module.css'
-import { FiFacebook, FiTwitter, FiLinkedin, FiGithub, FiInstagram } from 'react-icons/fi'
 import AOS from 'aos';
 import "aos/dist/aos.css"
+import SocialLink from '../SocialLink/SocialLink'
 
 
 export default function Hero() {
@@ -14,7 +14,7 @@ export default function Hero() {
     useEffect(() => {
         AOS.init({
             // initialise with other settings
-            duration: 1000,
+            duration: 2000,
             once: true,
             delay: 200
         });
@@ -40,14 +40,7 @@ export default function Hero() {
                         <div data-aos="fade-left" data-aos-delay="1000" className={styles.sign}>
                             <Image src={sign} alt="Picture of the author" />
                         </div>
-                        <div data-aos="fade-left" data-aos-delay="1100" className={styles.socialLink}>
-                            <a href="https://join.skype.com/invite/VLF0V7ZED15A">S</a>
-                            <a href="https://www.facebook.com/real.bangali.1/"><FiFacebook /></a>
-                            <a href="#"><FiTwitter /></a>
-                            <a href="https://www.linkedin.com/in/billah1/"><FiLinkedin /></a>
-                            <a href="#"><FiInstagram /></a>
-                            <a href="https://github.com/politeboys"><FiGithub /></a>
-                        </div>
+                        <SocialLink aos="fade-left" delay="1100"/>
                     </div>
                 </Grid>
             </Grid>

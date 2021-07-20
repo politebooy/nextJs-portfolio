@@ -6,8 +6,9 @@ import Portfolio from '../components/6-Portfolio/Portfolio'
 import Testimonial from '../components/7-Testimonial/Testimonial'
 import Exparience from '../components/9-Exparience/Exparience'
 import styles from '../styles/Home.module.css'
-import { Button } from '@material-ui/core'
+import { Button, Grid } from '@material-ui/core'
 import { FiArrowDownLeft } from "react-icons/fi";
+import SocialLink from '../components/SocialLink/SocialLink'
 
 export default function Home() {
   return (
@@ -24,14 +25,18 @@ export default function Home() {
       <Exparience />
       <Testimonial />
       <div className={styles.sideBar}>
-        <a href="#hero"><Button startIcon={<FiArrowDownLeft/>}>hero</Button></a>
-        <a href="#about"><Button startIcon={<FiArrowDownLeft/>}>about</Button></a>
-        <a href="#skills"><Button startIcon={<FiArrowDownLeft/>}>Skills</Button></a>
-        <a href="#portfolio"><Button startIcon={<FiArrowDownLeft/>}>Portfolio</Button></a>
-        <a href="#exparience"><Button startIcon={<FiArrowDownLeft/>}>Exparience</Button></a>
-        <a href="#testimonial"><Button startIcon={<FiArrowDownLeft/>}>Testimonial</Button></a>
+        <a href="#hero"><Button startIcon={<FiArrowDownLeft />}>hero</Button></a>
+        <a href="#about"><Button startIcon={<FiArrowDownLeft />}>about</Button></a>
+        <a href="#skills"><Button startIcon={<FiArrowDownLeft />}>Skills</Button></a>
+        <a href="#portfolio"><Button startIcon={<FiArrowDownLeft />}>Portfolio</Button></a>
+        <a href="#exparience"><Button startIcon={<FiArrowDownLeft />}>Exparience</Button></a>
+        <a href="#testimonial"><Button startIcon={<FiArrowDownLeft />}>Testimonial</Button></a>
       </div>
-      <footer style={{ height: '50px', backgroundColor: '#060c21' }}></footer>
+      <footer style={{padding: '10px 0', backgroundColor: '#060c21' }}>
+        <Grid container justify="center">
+          <SocialLink />
+        </Grid>
+      </footer>
     </>
   )
 }

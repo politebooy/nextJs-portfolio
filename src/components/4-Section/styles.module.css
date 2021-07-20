@@ -8,10 +8,20 @@
 .title{
     font-family: 'Atomic Age';
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     font-size: 32px;
     font-weight: 500;
     margin-bottom: 0;
+}
+.title::after,
+.title::before{
+    content: "";
+    width: 15%;
+    height: 3px;
+    display: inline-block;
+    margin-bottom: 9px;
+    border-radius: 5px;
+    background-color: black;
 }
 .btn{
     padding: 1px 10px !important;

@@ -1,0 +1,15 @@
+.socialLink a{
+    margin-right: 5px;
+    border: 1px solid #999;
+    width: 38px;
+    height: 38px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    transition: .3s;
+    color: #fff;
+}
+.socialLink a:hover{
+    background-color: rgba(153, 153, 153, 0.329);
+}
